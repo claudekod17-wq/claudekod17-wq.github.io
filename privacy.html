@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maxfiylik siyosati — Davomat Dasturi</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; line-height: 1.6; color: #1d2330; background: #fff; }
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    .muted { color: #5b6475; }
+    a { color: #1d4fc4; }
+    hr { border: 0; border-top: 1px solid #dde1e8; margin: 2rem 0; }
+  </style>
+</head>
+<body>
+  <p><a href="index.html">← Davomat Dasturi</a></p>
+  <h1>Maxfiylik siyosati</h1>
+  <p class="muted">Kuchga kirgan sana: 30.10.2026</p>
+
+  <h2>1. Qanday ma'lumot saqlanadi</h2>
+  <p>Dastur korxona kiritgan ma'lumotlarni saqlaydi: xodimlar ro'yxati, davomat, ish haqi, savdo, ombor va xarid yozuvlari. Bu ma'lumotlar faqat dastur o'rnatilgan kompyuterda turadi. Dastur ishlab chiquvchisining serveri yo'q va ma'lumot hech qanday serverga yuborilmaydi.</p>
+
+  <h2>2. Google hisobi ulanganda</h2>
+  <p>Google ulash ixtiyoriy. Rahbar ulasa, dastur Google'dan quyidagilarni oladi:</p>
+  <ul>
+    <li><code>openid</code> — hisobning o'zgarmas identifikatori: dasturga faqat ulangan hisob bilan kirish uchun;</li>
+    <li><code>email</code> — email manzili: dasturda "Ulangan: …" deb ko'rsatish uchun;</li>
+    <li><code>drive.file</code> — rahbarning Google Drive'ida dastur o'zi yaratgan "Davomat dasturi" papkasi va unga yuklangan zaxira fayllari. Dastur Drive'dagi boshqa fayllarni ko'rmaydi va o'qimaydi.</li>
+  </ul>
+  <p>Google'dan olingan ma'lumot faqat shu maqsadlarda ishlatiladi: kirish, zaxira fayllarini yuklash, ro'yxatini ko'rsatish, tiklash uchun yuklab olish va 90 tadan eski zaxiralarni o'chirish. U uchinchi shaxslarga berilmaydi, sotilmaydi, reklama uchun yoki sun'iy intellekt modellarini o'qitish uchun ishlatilmaydi.</p>
+  <p>Google kirish kaliti (refresh token) shu kompyuterda Windows himoyalangan xotirasida shifrlangan holda saqlanadi.</p>
+  <p>Davomat Dasturining Google API'laridan olingan ma'lumotlardan foydalanishi <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> talablariga, jumladan Limited Use (cheklangan foydalanish) talablariga mos keladi.</p>
+
+  <h2>3. Ulanishni bekor qilish va ma'lumotni o'chirish</h2>
+  <ul>
+    <li>Dasturdagi "Zaxira va Google" → "Google'dan uzish" tugmasi ulanishni o'chiradi va kirish kalitini Google tomonida ham bekor qiladi.</li>
+    <li>Ruxsatni istalgan vaqtda <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> sahifasida ham olib tashlash mumkin.</li>
+    <li>Drive'dagi "Davomat dasturi" papkasini foydalanuvchi o'zi o'chirishi mumkin. Kompyuterdagi ma'lumot dasturni o'chirish bilan yoki ma'lumot papkasini o'chirish bilan yo'qotiladi.</li>
+  </ul>
+
+  <h2>4. Bog'lanish</h2>
+  <p>Savollar bo'yicha: <a href="mailto:claudekod17@gmail.com">claudekod17@gmail.com</a></p>
+
+  <hr>
+
+  <h1 lang="en">Privacy Policy (English)</h1>
+  <div lang="en">
+    <p class="muted">Effective date: 30 October 2026</p>
+    <h2>1. Data stored</h2>
+    <p>Davomat Dasturi stores the data a business enters (employees, attendance, payroll, sales, warehouse and purchase records) only on the computer where it is installed. The developer operates no server, and no data is sent to any server operated by the developer.</p>
+    <h2>2. Google account (optional)</h2>
+    <p>If the owner connects a Google account, the app requests only:</p>
+    <ul>
+      <li><code>openid</code> — the account's stable identifier, so that only the connected account can sign in;</li>
+      <li><code>email</code> — the email address, displayed as "Connected: …" in the app;</li>
+      <li><code>drive.file</code> — access only to the "Davomat dasturi" folder the app creates in the user's own Google Drive and the backup files it uploads there. The app cannot see or read any other Drive files.</li>
+    </ul>
+    <p>Google user data is used only to sign in, upload backup files, list them, download them for restore, and delete backups older than the newest 90. It is not shared with third parties, not sold, and not used for advertising or to train AI models. The refresh token is stored encrypted on the computer using Windows-protected storage.</p>
+    <p>Davomat Dasturi's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <h2>3. Revoking access and deleting data</h2>
+    <p>Use "Zaxira va Google" → "Google'dan uzish" (Disconnect) in the app, which also revokes the token with Google, or remove access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. The user may delete the "Davomat dasturi" Drive folder at any time.</p>
+    <h2>4. Contact</h2>
+    <p><a href="mailto:claudekod17@gmail.com">claudekod17@gmail.com</a></p>
+  </div>
+</body>
+</html>
